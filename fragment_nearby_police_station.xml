@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/titleNearbyPolice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nearby Police Stations"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/pink_dark"
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/searchonmap"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Search on Map"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/pink_dark" />
+
+        <!-- CARD TEMPLATE -->
+        <!-- 01 Khadak -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khadak Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Shivaji Rd, Shukrawar Peth, Pune 411002"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-24476422"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 02 Chaturshringi -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chaturshringi Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Ganeshkhind Rd, near University, Pune 411016"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-25655335 / 020-26208421"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 03 Pimpri -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pimpri Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Pimpri, Pimpri-Chinchwad, Pune 411018"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-27472218"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 04 Bhosari -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bhosari Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Bhosari, Pimpri-Chinchwad, Pune 411026"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-27124728 / 020-27110834"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 05 Yerwada -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yerwada Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Yerwada, Pune 411006"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-26684456 / 020-26208288"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 06 Faraskhana -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faraskhana Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Budhwar Peth, near Dagdusheth Temple, Pune 411002"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-24452250 / 020-26208438"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 07 Swargate -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Swargate Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Near Swargate ST Stand, Pune 411042"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-24452769 / 020-24271350 / 020-26208319"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 08 Vishrantwadi -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vishrantwadi Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Alandi Rd, Vishrantwadi, Pune 411015"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-26692590 / 020-26208272"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 09 Bund Garden -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bund Garden Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Sangamvadi, Pune 411001"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-26123825"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 10 Deccan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deccan Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Prabhat Rd, Deccan Gymkhana, Pune 411004"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-25675005 / 020-25675006 / 020-26208424"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 11 Nigdi -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nigdi Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Nigdi Pradhikaran, Pimpri-Chinchwad, Pune 411044"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-27655088 / 020-27640467 / 020-27642202"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 12 Vishrambag -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vishrambag Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Vishrambaug Wada area, Pune 411002"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-24457750 / 020-26208439"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 13 Lashkar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lashkar Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Camp, MG Rd, Pune 411001"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-26361250 / 020-26208228 / 020-26333549"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 14 Hadapsar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hadapsar Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Hadapsar, Pune 411028"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-26817449 / 020-26996577"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 15 Sahakar Nagar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sahakarnagar Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Sahakarnagar, Pune 411009"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-24228113 / 020-26208320"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 16 Samarth (Somwar Peth) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Samarth Police Station (Somwar Peth)"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Somwar Peth, Pune 411011"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-26135491"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 17 Khadki -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khadki Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Khadki, Pune 411003"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-25818659 / 020-26208423"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 18 Kothrud -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kothrud Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Paud Rd, Kothrud, Pune 411038"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-25447427 / 020-25391515 / 020-25391010"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 19 Wakad -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wakad Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Wakad, Hinjawadi Road, Pimpri-Chinchwad 411057"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-22934100 / 020-22934110"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 20 Sangvi -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sangvi Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Sangvi, Pimpri-Chinchwad 411027"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-27286162"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 21 Chinchwad -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chinchwad Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Chafekar Chowk, Chinchwad 411019"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-27356767 / 020-27356768"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 22 Dighi -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dighi Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Dighi, Pimpri-Chinchwad 411015"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-20280035"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 23 Chandan Nagar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chandan Nagar Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Chandan Nagar, Nagar Rd, Pune 411014"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-27012321"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 24 Mundhwa -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mundhwa Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Mundhwa, Pune 411036"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-26890153"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 25 Kondhwa -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kondhwa Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Kondhwa Khurd, Pune 411048"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-26930780"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 26 Wanawadi -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wanawadi Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Wanawadi, Pune 411040"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-26824981 / 020-26875734"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 27 Warje Malwadi -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Warje Malwadi Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Warje, Pune 411058"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-25237777 / 020-25237779"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 28 Bharati Vidyapeeth -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bharati Vidyapeeth Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Dhankawadi, Pune 411043"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-24365100 / 020-24360101"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 29 Market Yard -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Market Yard Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Market Yard, Gultekdi, Pune 411037"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-24275137 / 020-26208355"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+        <!-- 30 Koregaon Park -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="14dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Koregaon Park Police Station"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/pink_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address: Koregaon Park, Pune 411001"
+                android:textSize="14sp"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone: 020-26152222"
+                android:textSize="14sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Working Hours: 24x7 | Helplines: 100, 1091"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

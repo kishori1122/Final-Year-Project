@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✉ Feedback"
+            android:textColor="@color/pink_dark"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Rating Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate your experience"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Star Rating -->
+        <RatingBar
+            android:id="@+id/feedback_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="5"
+            android:progressTint="@color/pink_primary"
+            android:secondaryProgressTint="@color/pink_accent"
+            android:indeterminateTint="@color/pink_dark"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/feedback_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:textColorHint="@color/text_secondary"
+            android:background="@drawable/setting_card_bg"
+            android:padding="12dp"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="12dp" />
+
+
+        <!-- Message -->
+        <EditText
+            android:id="@+id/feedback_message"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Write your feedback..."
+            android:textColorHint="@color/text_secondary"
+            android:gravity="top|start"
+            android:background="@drawable/setting_card_bg"
+            android:padding="12dp"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="20dp"
+            android:inputType="textMultiLine" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submit_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/pink_primary"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>

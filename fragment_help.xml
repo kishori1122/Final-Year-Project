@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help and Support"
+            android:textSize="22sp"
+            android:textColor="@color/pink_dark"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- FAQ Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FAQs"
+            android:textSize="18sp"
+            android:textColor="@color/blue_dark"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: How to use SOS Alert?\nA: Tap the SOS button on Home to start instant siren alarm."
+            android:textColor="@color/text_primary"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: How to add emergency contacts?\nA: Go to Contacts tab → Add New Contact."
+            android:textColor="@color/text_primary"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: How to enable Fake Call?\nA: Tap on Fake Call Icon → Then Accept or End to Stop Call"
+            android:textColor="@color/text_primary"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: What if GPS is off?\nA: The app will ask you to enable GPS for accurate location."
+            android:textColor="@color/text_primary"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: How does Shake Alert work?\nA: Enable Shake Alert on Home, then shake your phone 3 times to trigger buzzer and torch strobe."
+            android:textColor="@color/text_primary"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: How does WhatsApp SOS work?\nA: Tap WhatsApp SOS to send your live location to emergency contacts via both SMS and WhatsApp."
+            android:textColor="@color/text_primary"
+            android:padding="8dp"/>
+
+        <!-- Contact Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Support"
+            android:textSize="18sp"
+            android:textColor="@color/blue_dark"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📧 Email: sheshield.support@gmail.com"
+            android:textColor="@color/text_primary"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📞 Helpline: +91 9373843009"
+            android:textColor="@color/text_primary"
+            android:padding="5dp"/>
+
+        <!-- Quick Links -->
+        <Button
+            android:id="@+id/emergencyBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Women Helpline (112)"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/pink_dark"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/feedbackBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Feedback"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue_secondary"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</ScrollView>

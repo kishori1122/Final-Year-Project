@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="sos_images" path="." />
+    <files-path name="internal_sos" path="sos_images/" />
+    <cache-path name="cache_sos" path="sos_images/" />
+</paths>

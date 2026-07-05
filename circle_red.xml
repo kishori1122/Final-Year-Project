@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#B71C1C"/> <!-- Deep Metallic Red -->
+    <stroke android:color="#444444" android:width="3dp"/> <!-- Dark metallic border -->
+</shape>

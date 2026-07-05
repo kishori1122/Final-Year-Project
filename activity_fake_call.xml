@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:padding="20dp">
+
+    <!-- Caller Info -->
+    <TextView
+        android:id="@+id/fakeCallerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unknown"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/fakeCallerNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 98565 48546"
+        android:textSize="18sp"
+        android:textColor="@color/text_secondary"
+        android:layout_below="@id/fakeCallerName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <!-- Incoming Call Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incoming Call..."
+        android:textSize="20sp"
+        android:textColor="@color/pink_primary"
+        android:layout_below="@id/fakeCallerNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- Accept Circular Button -->
+    <ImageButton
+        android:id="@+id/btnAccept"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circle_green"
+        android:src="@android:drawable/ic_menu_call"
+        android:tint="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="40dp" />
+
+    <!-- Reject Circular Button -->
+    <ImageButton
+        android:id="@+id/btnReject"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circle_red"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:tint="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp" />
+
+</RelativeLayout>
